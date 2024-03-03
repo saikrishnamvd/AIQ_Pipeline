@@ -17,7 +17,7 @@ This project aims to build a comprehensive sales data pipeline for a retail comp
 # Usage
 1. Clone this repository to your local machine:
 
-![image](https://github.com/saikrishnamvd/AIQ_Project/assets/81354542/7bb8385b-ba38-4538-9806-8df57313baf7)
+![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/76200f9b-d80a-491b-ae11-8d07506846fd)
 
 2. Navigate to the project directory:
 
