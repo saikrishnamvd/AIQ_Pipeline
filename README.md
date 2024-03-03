@@ -6,11 +6,13 @@ This project aims to build a comprehensive sales data pipeline for a retail comp
 # Setup Instructions
 1. Ensure you have Python installed on your machine. You can download it from python.org.
 2. Install the required Python packages using pip. You can install them by running the following command:
-
-![image](https://github.com/saikrishnamvd/AIQ_Project/assets/81354542/c9e7faba-c02f-46e7-adb5-8391eac4b81e)
-
+![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/1a011436-2fad-49f3-b03e-b76fc9b4d67b)
 3. Make sure you have PostgreSQL installed on your machine. You can download it from postgresql.org.
 4. Create a new PostgreSQL database with the name postgres and provide the necessary permissions to access it.
+5. The details of the PostgreSQL database like dbname, user, password, host and port needs to be updated in db_creation.py anddata_storage.py
+6. The host ip shall be same as the ip of the local machine in which the PostgreSQL is running.
+7. Make sure connections are allowed at the host ip from docker to connect with PostgreSQL database. If no, make changes in the pg_hba.conf file as below:
+![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/c3d650fd-43f6-4e61-b75e-192840073849)
 
 # Usage
 1. Clone this repository to your local machine:
