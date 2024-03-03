@@ -15,26 +15,28 @@ This project aims to build a comprehensive sales data pipeline for a retail comp
 ![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/c3d650fd-43f6-4e61-b75e-192840073849)
 
 # Usage
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine in VSCode:
 
 ![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/76200f9b-d80a-491b-ae11-8d07506846fd)
-
-2. Navigate to the project directory:
-
-![image](https://github.com/saikrishnamvd/AIQ_Project/assets/81354542/e99219ff-0489-43ac-add7-154d1b909330)
 
 3. Run the Python script main.py to execute the data pipeline:
 
 ![image](https://github.com/saikrishnamvd/AIQ_Project/assets/81354542/1a9631f8-77d8-4b7e-a8c5-94d62437a50d)
 
-4. The script will perform the following tasks:
+4. Alternatively, the entire code is dockerized. You can directly pull the docker and run the container as below:
+![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/c382180e-378f-4451-9d55-27e19e206a88)
+![image](https://github.com/saikrishnamvd/AIQ_Pipeline/assets/81354542/ae977e14-6bb5-453b-8e63-d52b80c5f8b5)
+    *Replace 'container_name', 'host_port', 'container_port', 'username/repository' with respective details.
+   
+5. The script will perform the following tasks:
     Fetch user data from the JSONPlaceholder API endpoint.
     Merge the user data with the sales data based on the customer_id field.
     Fetch weather data for each sale using the OpenWeatherMap API.
     Perform data transformations and aggregations.
+    Stores the data visualization plots in a separate folder.
     Store the transformed data in the PostgreSQL database.
 
-5. After running the script, you can access the final dataset and analysis results in the PostgreSQL database.
+7. After running the script, you can access the final dataset and analysis results in the PostgreSQL database.
 
 # Components and Functionality
 1. Data Fetching: The script fetches user data from the JSONPlaceholder API and weather data from the OpenWeatherMap API.
